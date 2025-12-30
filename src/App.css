@@ -1,0 +1,54 @@
+.container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.controls input {
+  padding: 8px;
+  margin-right: 8px;
+}
+
+.controls button {
+  padding: 8px 12px;
+  margin-right: 8px;
+}
+
+.hotel {
+  margin-top: 20px;
+}
+
+.floor {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.lift {
+  width: 60px;
+  text-align: center;
+  border: 2px solid black;
+  margin-right: 8px;
+}
+
+.room {
+  width: 55px;
+  height: 40px;
+  border: 2px solid #444;
+  margin-right: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.room.available {
+  background-color: white;
+}
+
+.room.occupied {
+  background-color: #aaa;
+}
+
+.room.booked {
+  background-color: #4caf50;
+  color: white;
+}
